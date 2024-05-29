@@ -1,0 +1,15 @@
+/* src/styles/ErrorPage.css */
+.error-container {
+    padding: 20px;
+    background: linear-gradient(to bottom right, #002a3a, #005a78);
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.error-container h1 {
+    font-size: 2rem;
+}

@@ -1,0 +1,84 @@
+/* src/styles/FinesPage.css */
+.fines-container {
+    padding: 20px;
+    background: linear-gradient(to bottom right, #002a3a, #005a78);
+    height: 100vh;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.fines-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.search-icon {
+    color: #005a78;
+}
+
+.create-fine-button {
+    display: flex;
+    align-items: center;
+    background-color: #005a78;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.create-fine-button:hover {
+    background-color: #00465b;
+}
+
+.create-fine-icon {
+    margin-right: 5px;
+}
+
+.fines-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #003847;
+}
+
+.fines-table th,
+.fines-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #00465b;
+}
+
+.fines-table th {
+    background-color: #005a78;
+}
+
+.edit-icon {
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,32 @@
+.search-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.search-icon {
+    color: #005a78;
+}
+
+.filter-icon {
+    color: white;
+    cursor: pointer;
+}

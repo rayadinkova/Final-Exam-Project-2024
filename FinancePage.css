@@ -1,0 +1,111 @@
+/* src/styles/FinancePage.css */
+.finance-container {
+    padding: 20px;
+    background: linear-gradient(to bottom right, #002a3a, #005a78);
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+.finance-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.finance-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.line-chart-container, .summary-container {
+    background-color: #003847;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-chart-container {
+    width: 60%; /* Reduced width */
+    height: 400px; /* Fixed height */
+}
+
+.summary-container {
+    width: 35%; /* Adjusted width */
+    height: 400px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.summary-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.summary-header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-header-left h3 {
+    margin: 0;
+}
+
+.summary-header-left .building-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.summary-header-left .building-info img {
+    margin-right: 10px;
+}
+
+.summary-header-right {
+    background-color: #005a78;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.pie-chart-container {
+    width: 100%;
+    height: 300px; /* Fixed height for pie chart */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pie-chart {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.pie-chart-container .legend {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.pie-chart-container .legend div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
